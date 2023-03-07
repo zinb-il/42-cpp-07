@@ -1,4 +1,4 @@
-SRCS = main.cpp whatever.cpp
+SRCS = main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -8,7 +8,7 @@ CFLAGS = -Wall -Werror -Wextra -Wshadow -Wno-shadow -std=c++98
 
 #CFLAGS = -Wall -Werror -Wextra -Wshadow -Wno-shadow -std=c++98 -fsanitize=address -g
 
-NAME = cast
+NAME = template
 
 $(NAME) :
 		@$(CC) $(CFLAGS) -o $(NAME) $(SRCS)
