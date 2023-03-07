@@ -6,7 +6,7 @@
 /*   By: ziloughm <ziloughm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 15:09:39 by ziloughm          #+#    #+#             */
-/*   Updated: 2023/03/07 17:01:32 by ziloughm         ###   ########.fr       */
+/*   Updated: 2023/03/07 20:15:56 by ziloughm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,18 @@ int main(void)
 //     std::cout << "c = " << c << ", d = " << d << std::endl;
 //     std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
 //     std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
+    
+//     return 0;
+// }
+
+
+// int main(void)
+// {
+//     Awesome a(2), b(4);
+//     swap(a, b);
+//     std::cout << a << " " << b << std::endl;
+//     std::cout << max(a, b) << std::endl;
+//     std::cout << min(a, b) << std::endl;
     
 //     return 0;
 // }
