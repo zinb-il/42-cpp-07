@@ -27,7 +27,7 @@ template <typename T>
 class Array
 {
     public:
-        Array<T>(): _a(NULL), _size(0){return;}
+        Array<T>(): _a(new T[1]), _size(1){return;}
         Array<T>(unsigned int n): _a(NULL), _size(n)
         {
             if(_size)
