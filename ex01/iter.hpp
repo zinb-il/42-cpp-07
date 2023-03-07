@@ -6,7 +6,7 @@
 /*   By: ziloughm <ziloughm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 13:02:01 by ziloughm          #+#    #+#             */
-/*   Updated: 2023/03/07 18:00:55 by ziloughm         ###   ########.fr       */
+/*   Updated: 2023/03/07 18:32:40 by ziloughm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void print( T const & x ) { std::cout << x << std::endl; return; }
 //Template iter
 
 template <typename T>
-void iter(T *t, size_t s, void (*f)(T const &))
+void iter(T const *t, size_t s, void (*f)(T const &))
 {
     for (size_t i = 0; i < s; i++)
         f(t[i]);
