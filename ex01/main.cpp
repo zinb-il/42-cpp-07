@@ -6,7 +6,7 @@
 /*   By: ziloughm <ziloughm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 15:09:39 by ziloughm          #+#    #+#             */
-/*   Updated: 2023/03/07 18:34:20 by ziloughm         ###   ########.fr       */
+/*   Updated: 2023/03/07 18:38:37 by ziloughm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,6 @@ int main(void)
     Awesome tab2[5];
     iter(tab, 5, print);
     iter(tab2, 5, print);
-    return 0;
 
     return 0;
 }
-
